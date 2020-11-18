@@ -12,10 +12,16 @@ const Clock = () => {
     return () => clearInterval(interval);
   }, []);
 
+  let hours = time.getHours();
+  let pm = hours > 12;
+  hours = pm ? hours - 12 : hours;
+  let minutes = time.getMinutes();
+  let seconds = time.getSeconds();
+
   return (
-    <h1>
-      Clock
-    </h1>
+    <div className="clock">
+      {hours} : {minutes} : {seconds} {pm ? 'pm' : 'am' }
+    </div>
   )
 }
 
