@@ -4,7 +4,7 @@ import {BrowserRouter, Switch, Route, NavLink} from 'react-router-dom';
 const Folder = ({folders}) => {
   return (
     <BrowserRouter>
-      <div class="folders">
+      <div className="folders">
         <h1>Tabs</h1>
         <div className='tabs'>
           <ul className='tab-header'>

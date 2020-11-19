@@ -1,7 +1,7 @@
 /* TODO Add site wide styles */
 @import './reset';
 
-.clock {
+.clock, .weather {
     font-family: 'Roboto', sans-serif;
     border: 1px solid black;
     border-radius: 5px;

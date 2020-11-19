@@ -1,4 +1,4 @@
-a, article, body, button, div, fieldset, footer, form, h1, h2, header, html, i, img, input, label, li, main, nav, p, section, small, span, strong, textarea, time, ul {
+a, article, body, button, div, fieldset, footer, form, h1, h2, header, html, i, img, label, li, main, nav, p, section, small, span, strong, textarea, time, ul {
     background: transparent;
     border: 0;
     box-sizing: inherit;
@@ -11,17 +11,17 @@ a, article, body, button, div, fieldset, footer, form, h1, h2, header, html, i, 
     text-decoration: inherit;
     vertical-align: inherit;
   }
-  
+
   ul {
     list-style: none;
   }
-  
+
   img {
     display: block;
     height: auto;
     width: 100%;
   }
-  
+
   button, input[type="email"], input[type="password"], input[type="submit"], input[type="text"], textarea {
     /*
     Get rid of native styling. Read more here:
@@ -31,7 +31,7 @@ a, article, body, button, div, fieldset, footer, form, h1, h2, header, html, i, 
     -webkit-appearance: none;
     appearance: none;
   }
-  
+
   button, input[type="submit"] {
     cursor: pointer;
   }
