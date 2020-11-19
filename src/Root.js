@@ -1,6 +1,8 @@
 import React from 'react';
 import Clock from './Clock';
 import Folder from './Folder';
+import Weather from './Weather';
+
 
 function Root() {
   const folders = [
@@ -12,6 +14,7 @@ function Root() {
     <div>
       <Clock />
       <Folder folders={folders}/>
+      <Weather />
     </div>
   );
 }
